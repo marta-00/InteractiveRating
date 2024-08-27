@@ -5,15 +5,14 @@
     --DarkerBlue: hsl(216, 12%, 8%);
 }
 
-@media screen only and (max-width: 375px) {
-    .container {
-        width: 100%;
-        height: 100%;
+@media screen only and (max-width: 600px) {
+    body {
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: var(--DarkerBlue);
     }
+
     .card {
         width: 90%;
         height: 90%;
@@ -54,11 +53,7 @@
         font-size: 0.5rem;
     }
 }
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--DarkerBlue);
-}
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
