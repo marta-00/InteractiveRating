@@ -2,8 +2,11 @@
     --orange: hsl(25, 97%, 53%);
     --LightGrey: hsl(217, 12%, 63%);
     --DarkBlue: hsl(213, 19%, 18%);
-    --DarkBlue2: hsla(213, 20%, 18%, 0.7);
+    --DarkBlue2: #2d343c;
     --DarkerBlue: hsl(216, 12%, 8%);
+    --Start: #222933;    
+    --end: #181F29;
+
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
@@ -80,15 +83,16 @@
         background-color: var(--DarkerBlue);
         flex-wrap: wrap;
         flex-direction: column;
+        font-family: 'Overpass', sans-serif;
     }
 
     .card {
-        width: 380px;
+        width: 347px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border-radius: 10px;
+        border-radius: 30px;
         background-color: var(--DarkBlue);
         padding: 33px;
     }
@@ -102,6 +106,7 @@
         color: var(--LightGrey);
         font-size: 1rem;
         margin: 1rem;
+        line-height: 30px;
     }
     .card button {
         width: 340px;
@@ -114,7 +119,10 @@
         font-size: 1rem;
         cursor: pointer;
         color: var(--DarkBlue);
+        font-weight: 700;
+        letter-spacing: 3px;
     }
+
     .attribution {
         font-size: 0.5rem;
     }
@@ -122,7 +130,7 @@
     .star{
         width: 50px;
         height: 50px;
-        background-color: var(--LightGrey);
+        background-color: var(--DarkBlue2);
         border-radius: 50%;
         align-self: flex-start;
         margin-bottom: 30px;
@@ -143,7 +151,7 @@
     }
 
     .number p{
-        background-color: var(--LightGrey);
+        background-color: var(--DarkBlue2);
         color: white;
         border-radius: 50%;
         padding: 0;
