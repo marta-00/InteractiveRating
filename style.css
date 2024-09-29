@@ -163,4 +163,17 @@
         align-items: center;
     }
 
+    #thankyou {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .result{
+        background-color: var(--DarkBlue2);
+        color:hsl(25, 97%, 53%);
+        border-radius: 50%;
+        width: fit-content;
+    }
 }
